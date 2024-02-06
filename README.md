@@ -9,3 +9,4 @@ connected to a postgres database all running within docker
 ## .NET Projects
 #### DatabaseUp
 Leverages DbUp to do all CRUD operations on our postgres database from a c# codebase.
+We also leverage [System.CommandLine](https://www.nuget.org/packages/System.CommandLine) to help parse commands
