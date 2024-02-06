@@ -40,6 +40,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "dbup-postgresql": {
+              "target": "Package",
+              "version": "[5.0.40, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
