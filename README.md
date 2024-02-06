@@ -8,4 +8,4 @@ connected to a postgres database all running within docker
 
 ## .NET Projects
 #### DatabaseUp
-This helps do all CRUD operations on our postgres database from a c# codebase.
+Leverages DbUp to do all CRUD operations on our postgres database from a c# codebase.
